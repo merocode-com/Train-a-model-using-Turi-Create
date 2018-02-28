@@ -1,1 +1,1 @@
-# Train-a-model-using-Turi-Create
+# Train a model using Turi Create
