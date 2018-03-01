@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A79B7AF92033951A00C18E0B /* dog_classifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A79B7AF82033951A00C18E0B /* dog_classifier.mlmodel */; };
+		A7F86EAC2030B8EC005CF2A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F86EAB2030B8EC005CF2A8 /* AppDelegate.swift */; };
+		A7F86EAE2030B8EC005CF2A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7F86EAD2030B8EC005CF2A8 /* ViewController.swift */; };
+		A7F86EB12030B8EC005CF2A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F86EAF2030B8EC005CF2A8 /* Main.storyboard */; };
+		A7F86EB32030B8EC005CF2A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7F86EB22030B8EC005CF2A8 /* Assets.xcassets */; };
+		A7F86EB62030B8EC005CF2A8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7F86EB42030B8EC005CF2A8 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A79B7AF82033951A00C18E0B /* dog_classifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = dog_classifier.mlmodel; sourceTree = "<group>"; };
+		A7F86EA82030B8EC005CF2A8 /* Turi-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Turi-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7F86EAB2030B8EC005CF2A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7F86EAD2030B8EC005CF2A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7F86EB02030B8EC005CF2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7F86EB22030B8EC005CF2A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7F86EB52030B8EC005CF2A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7F86EB72030B8EC005CF2A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7F86EA52030B8EC005CF2A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7F86E9F2030B8EC005CF2A8 = {
+			isa = PBXGroup;
+			children = (
+				A7F86EAA2030B8EC005CF2A8 /* Turi-Demo */,
+				A7F86EA92030B8EC005CF2A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7F86EA92030B8EC005CF2A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7F86EA82030B8EC005CF2A8 /* Turi-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7F86EAA2030B8EC005CF2A8 /* Turi-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				A79B7AF82033951A00C18E0B /* dog_classifier.mlmodel */,
+				A7F86EB72030B8EC005CF2A8 /* Info.plist */,
+				A7F86EAB2030B8EC005CF2A8 /* AppDelegate.swift */,
+				A7F86EAD2030B8EC005CF2A8 /* ViewController.swift */,
+				A7F86EB22030B8EC005CF2A8 /* Assets.xcassets */,
+				A7F86EB42030B8EC005CF2A8 /* LaunchScreen.storyboard */,
+				A7F86EAF2030B8EC005CF2A8 /* Main.storyboard */,
+			);
+			path = "Turi-Demo";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7F86EA72030B8EC005CF2A8 /* Turi-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7F86EBA2030B8EC005CF2A8 /* Build configuration list for PBXNativeTarget "Turi-Demo" */;
+			buildPhases = (
+				A7F86EA42030B8EC005CF2A8 /* Sources */,
+				A7F86EA52030B8EC005CF2A8 /* Frameworks */,
+				A7F86EA62030B8EC005CF2A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Turi-Demo";
+			productName = "Turi-Demo";
+			productReference = A7F86EA82030B8EC005CF2A8 /* Turi-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7F86EA02030B8EC005CF2A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Elmansy, Amira";
+				TargetAttributes = {
+					A7F86EA72030B8EC005CF2A8 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = A7F86EA32030B8EC005CF2A8 /* Build configuration list for PBXProject "Turi-Demo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7F86E9F2030B8EC005CF2A8;
+			productRefGroup = A7F86EA92030B8EC005CF2A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7F86EA72030B8EC005CF2A8 /* Turi-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7F86EA62030B8EC005CF2A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F86EB62030B8EC005CF2A8 /* LaunchScreen.storyboard in Resources */,
+				A7F86EB32030B8EC005CF2A8 /* Assets.xcassets in Resources */,
+				A7F86EB12030B8EC005CF2A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7F86EA42030B8EC005CF2A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7F86EAE2030B8EC005CF2A8 /* ViewController.swift in Sources */,
+				A79B7AF92033951A00C18E0B /* dog_classifier.mlmodel in Sources */,
+				A7F86EAC2030B8EC005CF2A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A7F86EAF2030B8EC005CF2A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F86EB02030B8EC005CF2A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7F86EB42030B8EC005CF2A8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7F86EB52030B8EC005CF2A8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7F86EB82030B8EC005CF2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A7F86EB92030B8EC005CF2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7F86EBB2030B8EC005CF2A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAW9G5URYT;
+				INFOPLIST_FILE = "Turi-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HERE.Turi-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7F86EBC2030B8EC005CF2A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PAW9G5URYT;
+				INFOPLIST_FILE = "Turi-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "HERE.Turi-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7F86EA32030B8EC005CF2A8 /* Build configuration list for PBXProject "Turi-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F86EB82030B8EC005CF2A8 /* Debug */,
+				A7F86EB92030B8EC005CF2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7F86EBA2030B8EC005CF2A8 /* Build configuration list for PBXNativeTarget "Turi-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7F86EBB2030B8EC005CF2A8 /* Debug */,
+				A7F86EBC2030B8EC005CF2A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7F86EA02030B8EC005CF2A8 /* Project object */;
+}
