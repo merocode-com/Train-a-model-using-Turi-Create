@@ -7,17 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A77F7A002063A3FC00D20CD7 /* EmotiW_VGG_S.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A77F79FF2063A3FB00D20CD7 /* EmotiW_VGG_S.mlmodel */; };
 		A79ABD801EFD521B0031E609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79ABD7F1EFD521B0031E609 /* AppDelegate.swift */; };
 		A79ABD821EFD521B0031E609 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79ABD811EFD521B0031E609 /* ViewController.swift */; };
 		A79ABD851EFD521B0031E609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79ABD831EFD521B0031E609 /* Main.storyboard */; };
 		A79ABD871EFD521B0031E609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A79ABD861EFD521B0031E609 /* Assets.xcassets */; };
 		A79ABD8A1EFD521B0031E609 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A79ABD881EFD521B0031E609 /* LaunchScreen.storyboard */; };
-		A79ABD981F02AFBE0031E609 /* EmotiW_VGG_S.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = A79ABD971F02AFBE0031E609 /* EmotiW_VGG_S.mlmodel */; };
 		A79B7AFB2033AA5800C18E0B /* UIImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B7AFA2033AA5800C18E0B /* UIImage.swift */; };
 		A79B7AFD2033BB6D00C18E0B /* CGImagePropertyOrientation+UIImageOrientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = A79B7AFC2033BB6D00C18E0B /* CGImagePropertyOrientation+UIImageOrientation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A77F79FF2063A3FB00D20CD7 /* EmotiW_VGG_S.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = EmotiW_VGG_S.mlmodel; sourceTree = "<group>"; };
 		A79ABD7C1EFD521B0031E609 /* CustomModel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomModel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A79ABD7F1EFD521B0031E609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A79ABD811EFD521B0031E609 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -25,7 +26,6 @@
 		A79ABD861EFD521B0031E609 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A79ABD891EFD521B0031E609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A79ABD8B1EFD521B0031E609 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A79ABD971F02AFBE0031E609 /* EmotiW_VGG_S.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = EmotiW_VGG_S.mlmodel; path = ../../../../EmotiW_VGG_S.mlmodel; sourceTree = "<group>"; };
 		A79B7AFA2033AA5800C18E0B /* UIImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImage.swift; sourceTree = "<group>"; };
 		A79B7AFC2033BB6D00C18E0B /* CGImagePropertyOrientation+UIImageOrientation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGImagePropertyOrientation+UIImageOrientation.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 		A79ABD7E1EFD521B0031E609 /* CustomModel */ = {
 			isa = PBXGroup;
 			children = (
-				A79ABD971F02AFBE0031E609 /* EmotiW_VGG_S.mlmodel */,
+				A77F79FF2063A3FB00D20CD7 /* EmotiW_VGG_S.mlmodel */,
 				A79ABD8B1EFD521B0031E609 /* Info.plist */,
 				A79ABD7F1EFD521B0031E609 /* AppDelegate.swift */,
 				A79B7AFC2033BB6D00C18E0B /* CGImagePropertyOrientation+UIImageOrientation.swift */,
@@ -144,7 +144,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A79ABD981F02AFBE0031E609 /* EmotiW_VGG_S.mlmodel in Sources */,
+				A77F7A002063A3FC00D20CD7 /* EmotiW_VGG_S.mlmodel in Sources */,
 				A79B7AFB2033AA5800C18E0B /* UIImage.swift in Sources */,
 				A79ABD821EFD521B0031E609 /* ViewController.swift in Sources */,
 				A79ABD801EFD521B0031E609 /* AppDelegate.swift in Sources */,
